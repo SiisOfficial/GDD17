@@ -5,7 +5,7 @@ using UnityEngine;
 
 [ExecuteInEditMode]
 
-[AddComponentMenu("Kolaylıklar/Düzenlerken Çalıştır")]
+[AddComponentMenu("Useful Scripts/Execute In Edit Mode")]
 public class executeInEditMode : MonoBehaviour {
 
     [SerializeField]

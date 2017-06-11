@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using System;
 
 /// <summary>
 /// https://docs.unity3d.com/ScriptReference/Serializable.html
 /// </summary>
 namespace Helpers {
 
-    [System.Serializable]
+    [Serializable]
     public struct MinMax {
         [SerializeField]
         float rangeStart;
@@ -17,7 +18,7 @@ namespace Helpers {
         }
     }
 
-    [System.Serializable]
+    [Serializable]
     public struct MinMaxRange {
         [SerializeField]
         [Range(-10, 0)]

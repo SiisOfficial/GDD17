@@ -7,7 +7,7 @@ using UnityEngine;
 
 [DisallowMultipleComponent]
 
-[AddComponentMenu("Kolaylıklar/Kutu İten")]
+[AddComponentMenu("Useful Scripts/Box Pusher")]
 public class startForce : MonoBehaviour {
 
     [Range(0, 1000)]

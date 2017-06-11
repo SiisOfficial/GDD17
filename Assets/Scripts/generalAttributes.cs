@@ -7,7 +7,7 @@ using S = System;
 
 [HelpURL("https://docs.unity3d.com/ScriptReference/HelpURLAttribute.html")]
 
-[AddComponentMenu("Kolaylıklar/Genel Kolaylıklar")]
+[AddComponentMenu("Useful Scripts/General Usefulness")]
 public class generalAttributes : MonoBehaviour {
 
     [S.NonSerializedAttribute]
@@ -16,18 +16,18 @@ public class generalAttributes : MonoBehaviour {
     [HideInInspector]
     public bool isSpecial = false;
 
-    [Header("Çok Kullanışlı Değişkenler")]
+    [Header("Very Useful Variables")]
     [Space(8)]
 
-    [TooltipAttribute("Küp nerede yaratılsın?")]
+    [TooltipAttribute("Where will the cube be created at?")]
     [SerializeField]
     Vector3 cubePosition = Vector3.one;
-    [TooltipAttribute("Küpün büyüklüğü ne olsun?")]
+    [TooltipAttribute("What will be the scale of this cube?")]
     [SerializeField]
     [Range(0, 3)]
     float cubeScale = 1f;
 
-    [Header("Bunlar da Kullanışlı Değişkenler")]
+    [Header("These Are Useful Variables Too")]
     [Space(8)]
 
     [SerializeField]
@@ -35,21 +35,21 @@ public class generalAttributes : MonoBehaviour {
     [Range(0, 5)]
     [SerializeField]
     float transitionTime = 1f;
-    [TooltipAttribute("Küp nereye gitsin?")]
+    [TooltipAttribute("Where will the cube go?")]
     [SerializeField]
     Vector3 cubeTargetPosition = Vector3.one * 2f;
 
-    [Header("Bu Daha Az Kullanışlı Bir Değişken")]
+    [Header("This Is A Less Useful Variable")]
     [Space(8)]
 
     public bool useGradient = true;
 
-    [Header("Off! Bu Nasıl Bir Kullanışlılık Böyle? Resmen Hayatım Kolaylaştı")]
+    [Header("Wow! Much Usefulness! Such Easier Life!")]
     [Space(8)]
 
     [SerializeField]
     Gradient gradientColor;
-    [ContextMenuItem("Renk Üret", "GenerateColor")]
+    [ContextMenuItem("Generate A Color", "GenerateColor")]
     [SerializeField]
     Color color;
 
